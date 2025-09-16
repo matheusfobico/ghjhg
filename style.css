@@ -1,0 +1,51 @@
+body {
+background-color: rgb(255, 238, 222);
+font-family: "Libertinus Serif Display", system-ui;
+}
+
+footer {
+background-color: rgb(194, 172, 153);
+color: rgb(0, 0, 0);
+position: fixed;
+bottom: 0;
+width: 100%;
+font-size: 5vw
+}
+
+footer p {
+text-align: center;
+font: 0.6rem;
+margin-top: 0.5rem;
+}
+#container{
+display: flex;
+}
+
+.cartao {
+background-color: hwb(23 73% 18%);
+margin: 1rem 1rem;
+height: 20rem;
+flex-grow: 1;
+flex-basis: cal(33%-6rem);
+}
+
+.cartao_conteudo h3{
+text-align: center;
+background-color: rgb(197, 184, 161);
+right: 100%;
+}
+
+.cartao_conteudo {
+background-color: rgb(190, 179, 164);
+text-align: left;
+padding: absolute;
+margin: 0.10rem;
+border: 0.10rem;
+padding: 0.5rem;
+}
+.cartao_conteudo_resposta p{
+color: rgb(84, 87, 61);
+}
+.cartao:first-child .cartao_conteudo_resposta p{
+color: rgb(88, 92, 67);
+}

@@ -1,0 +1,3 @@
+CriarCarta(categoria,pergunta,resposta){
+    
+}
